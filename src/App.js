@@ -1,8 +1,10 @@
 import "./App.css";
 import { Stack } from "@mui/material";
-import { OrganizarElementos } from "./componentes/OrganizarElementos";
+import { MuiAccordion } from "./componentes/MuiAccordion";
 
-/*import { Mautocomplete } from "./componentes/Mautocomplete";
+/*import { MuiCard } from "./componentes/MuiCard";
+import { OrganizarElementos } from "./componentes/OrganizarElementos";
+import { Mautocomplete } from "./componentes/Mautocomplete";
 import { MRating } from "./componentes/Rating";
 import { ElSwitch } from "./componentes/Switch";
 import Iconos from "./componentes/Iconos";
@@ -36,8 +38,10 @@ function App() {
       </Stack>
       <ElSwitch />
       <MRating/>
-      <Mautocomplete/>*/}
+      <Mautocomplete/>
       <OrganizarElementos />
+      <MuiCard></MuiCard>*/}
+      <MuiAccordion></MuiAccordion>
       </Stack>
   );
 }
