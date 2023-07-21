@@ -1,8 +1,15 @@
 import "./App.css";
 import { Stack } from "@mui/material";
-import { MuiAccordion } from "./componentes/MuiAccordion";
 
-/*import { MuiCard } from "./componentes/MuiCard";
+/*import { MuiBottonNavigation } from "./componentes/MuiBottonNavigation";
+import { MuiMigaja } from "./componentes/MuiMigaja";
+import { MuiNavbar } from "./componentes/MuiNavbar";
+import { MuiDrawer } from "./componentes/MuiDrawer";
+import MuiSpeedDial from "./componentes/MuiSpeedDial";
+import { MuiLink } from "./componentes/MuiLink";
+import { MuiImageList } from "./componentes/MuiImageList";
+import { MuiAccordion } from "./componentes/MuiAccordion";
+import { MuiCard } from "./componentes/MuiCard";
 import { OrganizarElementos } from "./componentes/OrganizarElementos";
 import { Mautocomplete } from "./componentes/Mautocomplete";
 import { MRating } from "./componentes/Rating";
@@ -17,7 +24,7 @@ import { FCheckBox } from "./componentes/FcheckBox";
 
 function App() {
   return (
-    <Stack className="App" display="flex">
+    <Stack>
       {/*<Stack display="Block" className="Contenedor-Botones">
         <h1>Contenedor de Botones</h1>
         <Botenes></Botenes>
@@ -40,8 +47,15 @@ function App() {
       <MRating/>
       <Mautocomplete/>
       <OrganizarElementos />
-      <MuiCard></MuiCard>*/}
-      <MuiAccordion></MuiAccordion>
+      <MuiCard></MuiCard>
+      <MuiAccordion />
+      <MuiImageList />
+      <MuiLink/>
+      <MuiNavbar/>
+      <MuiMigaja/>
+      <MuiDrawer/>
+      <MuiSpeedDial/>
+      <MuiBottonNavigation/>*/}
       </Stack>
   );
 }
