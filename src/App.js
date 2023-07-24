@@ -1,7 +1,20 @@
 import "./App.css";
 import { Stack } from "@mui/material";
+import { MuiSnackBar } from "./componentes/MuiSnackBar";
+import { MuiDialog } from "./componentes/MuiDialog";
+import { MuiProgress } from "./componentes/MuiProgress";
+import { MuiSkeleton } from "./componentes/MuiSkeleton";
+import { MuiLoadingButton } from "./componentes/MuiLoadingButton";
 
-/*import { MuiBottonNavigation } from "./componentes/MuiBottonNavigation";
+/*
+import { MuiList } from "./componentes/MuiList";
+import { MuiChip } from "./componentes/MuiChip";
+import { MuiTooltip } from "./componentes/MuiTooltip";
+import { MuiTable } from "./componentes/MuiTable";
+import { MuiAlert } from "./componentes/MuiAlert";
+import { MuiAvatar } from "./componentes/MuiAvatar";
+import { MuiBadge } from "./componentes/MuiBadge";
+import { MuiBottonNavigation } from "./componentes/MuiBottonNavigation";
 import { MuiMigaja } from "./componentes/MuiMigaja";
 import { MuiNavbar } from "./componentes/MuiNavbar";
 import { MuiDrawer } from "./componentes/MuiDrawer";
@@ -24,7 +37,7 @@ import { FCheckBox } from "./componentes/FcheckBox";
 
 function App() {
   return (
-    <Stack>
+    <Stack margin={4}>
       {/*<Stack display="Block" className="Contenedor-Botones">
         <h1>Contenedor de Botones</h1>
         <Botenes></Botenes>
@@ -55,7 +68,19 @@ function App() {
       <MuiMigaja/>
       <MuiDrawer/>
       <MuiSpeedDial/>
-      <MuiBottonNavigation/>*/}
+      <MuiBottonNavigation/>
+      <MuiBadge></MuiBadge>
+      <MuiAvatar/>
+      <MuiChip/>
+      <MuiList/>
+      <MuiTooltip/>
+      <MuiTable/>
+      <MuiAlert/>
+       <MuiSnackBar/>
+     <MuiDialog/>
+     <MuiProgress/>*/}
+     <MuiSkeleton/>
+     <MuiLoadingButton/>
       </Stack>
   );
 }
